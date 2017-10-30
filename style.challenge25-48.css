@@ -1,0 +1,336 @@
+/*Challenge 24 (Autofocus)
+index.html*/
+<input type="text" placeholder="Search..." autofocus />
+
+Challenge 25 (Border Radius)
+style.css
+.post {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.author-img {
+  border-radius: 50%;
+}
+
+
+/*Challenge 26 (Border Radius 2)
+style.css*/
+.post {
+  border-radius: 4px 4px 0 0;
+}
+
+.author-img {
+  border-radius: 50%;
+}
+
+
+
+/*Challenge 27 (Box Shadow)
+style.css*/
+.post {
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 1px #000;
+}
+
+.author-img {
+  border-radius: 50%;
+}
+
+.btn {
+  box-shadow: inset 0 1px 0 #ce6a67;
+}
+
+h3 {
+  box-shadow: 0 1px 0 #969c8a, 0 2px 0 #fff;
+}
+
+.clear-element {
+  clear: both;
+}
+
+
+/*Challenge 28 (Text Shadow)
+style.css*/
+h1 {
+  text-shadow: 0 1px 2px #000;  
+} 
+
+.post {
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 1px #000;
+}
+
+.author-img {
+  border-radius: 50%;
+}
+
+.btn {
+  box-shadow: inset 0 1px 0 #ce6a67;
+}
+
+h3 {
+  box-shadow: 0 1px 0 #969c8a, 0 2px 0 #fff;
+}
+
+
+/*Challenge 29 (Box Sizing 2)
+style.css*/
+h1 {
+  text-shadow: 0 1px 2px #000;  
+} 
+
+.post {
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 1px 1px #000;
+}
+
+.author-img {
+  border-radius: 50%;
+}
+
+.btn {
+  box-shadow: inset 0 1px 0 #ce6a67;
+}
+
+h3 {
+  box-shadow: 0 1px 0 #969c8a, 0 2px 0 #fff;
+} 
+
+.input {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  padding: 7px 10px;
+  width: 100%;
+}
+
+
+/*Challenge 30 (Multiple Backgrounds)
+style.css*/
+.element {
+  background-image: url(painting-01.jpg), url(painting-02.jpg);
+  background-position: top left, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+
+/*Challenge 31 (Multiple Backgrounds 2)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+}
+
+
+/*Challenge 32 (RGBa)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+}
+
+.tagline {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.nav {
+  background-color: #f1f1fe;
+}
+
+
+/*Challenge 33 (Linear Gradient)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+} 
+
+.tagline {
+  color: #fff;
+}
+
+.nav {
+  background: linear-gradient(#3e606f, #324d59);
+}
+
+.masthead {
+  width: 100% 
+}
+
+
+
+/*Challenge 34 (Linear Gradient 2)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+} 
+
+.tagline {
+  color: #fff;
+}
+
+.nav {
+  background: linear-gradient(0deg, #3e606f, #324d59)
+}
+
+.masthead {
+  width: 100%;
+}
+
+
+
+/*Challenge 35 (Radial Gradient)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+} 
+
+.tagline {
+  color: #fff;
+}
+
+.nav {
+  background: linear-gradient(0deg, #3e606f, #324d59);
+}
+
+.masthead {
+  background: radial-gradient(#1e3e4d, #102028);
+}
+
+
+
+/*Challenge 36 (Radial Gradient 2)
+style.css*/
+.element {
+  background: url(painting-01.jpg) top left no-repeat, url(painting-02.jpg) center no-repeat;
+} 
+
+.tagline {
+  color: #fff;
+}
+
+.nav {
+  background: linear-gradient(0deg, #3e606f, #324d59);
+}
+
+.masthead {
+  background: radial-gradient(circle 400px, #1e3e4d, #102028);
+}
+
+
+
+/*Challenge 37 (Font Face)
+style.css*/
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url('DroidSerif.eot');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+/*Challenge 38 (Font Face 2)
+style.css*/
+body {
+  font-family: 'DroidSerifRegular', Georgia, 'Times New Roman', serif;
+}
+
+
+
+/*Challenge 39 (Font Face 3)
+style.css*/
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url('DroidSerifBold.eot');
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+
+/*Challenge 40 (Font Face 4)
+style.css*/
+body {
+  font-family: 'DroidSerifRegular', Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
+/*Challenge 41 (Translate)
+style.css*/
+img {
+  transform: translate(20px, 40px);
+}
+
+/*Challenge 42 (Rotate)
+style.css*/
+img {
+  transform: rotate(15deg);
+}
+
+
+/*Challenge 43 (Scale)
+style.css*/
+img {
+  transform: scale(1.5);
+}
+
+/*Challenge 44 (Skew)
+style.css*/
+img {
+  transform: skewX(45deg);
+}
+
+
+
+/*Challenge 45 (Skew 2)
+style.css*/
+img {
+  transform: skewY(-15deg);
+}
+
+
+
+/*Challenge 46 (Transition)
+style.css*/
+a {
+  color: #c44743;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s;
+}
+
+a:hover {
+  color: #d56d68;
+}
+
+
+/*Challenge 47 (Transition 2)
+style.css*/
+.element {
+  background-color: #c44743;
+  transition: background-color 0.6s linear 0.1s;
+}
+
+.element:hover {
+  background-color: #d56d68;
+}
+
+
+/*Challenge 48 (Transition 3)
+style.css*/
+.element {
+  color: #c44743;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.element:hover {
+  background-color: rgba(196, 71, 67, 0.10);
+  color: #d56d68;
+}
+
+
